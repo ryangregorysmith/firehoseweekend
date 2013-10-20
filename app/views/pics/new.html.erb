@@ -8,7 +8,7 @@
 	<%= f.input :emotion, label: 'How did you feel?', placeholder: 'Happy, Stoked, Awesome' %>
 	<%= f.input :learned, label: 'What did you learn?', placeholder: 'CSS, HTML5, CSS, Rails, Ruby, Computer Things', :input_html => {rows: '3'} %>
 <br></br>
-
+	<%= link_to 'Cancel',  pics_path, :class => 'btn btn-cancel btn-large' %>
 	<%= submit_tag 'Submit', :class => 'btn btn-success btn-large' %>
 <% end %>
 </div>
